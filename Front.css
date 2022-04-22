@@ -1,0 +1,70 @@
+body{
+    width: 90vw;
+    height: 90vh;
+    font-family: sans-serif;
+    background-image: url("park-7.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+/* images css */
+
+#skill{
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    margin-top: -360px;
+    margin-left: 90px;
+    transition: transform 0.7s;
+
+}
+#experience{
+    width: 370px;
+    height: 280px;
+    margin-left: 954px;
+    margin-top: 235px;
+    transition: transform 0.7s;
+}
+#skill:hover{
+    transform: scale(1.1);
+}
+#experience:hover{
+    transform: scale(1.1);
+}
+/*nav bar - Horizontal list*/
+
+.text-center{
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container{
+    margin-top: 20vh;
+}
+
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+/* Social Icons*/
+.social-icons li{
+    display: inline-block;
+    margin: -10px 20px 20px 0px;
+}
+
+.social-icons li a i{
+    font-size: 1rem;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
+}
