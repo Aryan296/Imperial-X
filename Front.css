@@ -23,7 +23,7 @@ body{
     height: 370px;
     position: absolute;
     margin-top: -360px;
-    margin-left: 90px;
+    margin-left: 70px;
     transition: transform 0.7s;
 
 }
@@ -40,20 +40,20 @@ body{
     height: 170px;
     position: absolute;
     margin-top: -315px;
-    margin-left: 410px;
+    margin-left: 390px;
     transition: transform 0.7s;
 }
 #inst{
-    width: 350px;
+    width: 288px;
     height: 470px;
     position: absolute;
     margin-top: -415px;
-    margin-left: 480px;
+    margin-left: 520px;
     transition: transform 0.7s;
 }
 #inst-p{
     margin-top: -237px;
-    margin-left: 610px;
+    margin-left: 620px;
     position: relative;
 }
 
@@ -137,6 +137,7 @@ position: fixed;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     margin-top: 50px;
+    margin-left: -40px;
 }
 #li1{
     font-size:30%;
@@ -161,8 +162,8 @@ position: fixed;
     padding-top: 10px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    margin-top: -200px;
-    margin-left: 230px;
+    margin-top: -220px;
+    margin-left: 200px;
 
 }
 #inover4{
@@ -173,6 +174,6 @@ position: fixed;
     padding-top: 10px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    margin-top: -265px;
+    margin-top: -245px;
     margin-left: -60px;
 }
