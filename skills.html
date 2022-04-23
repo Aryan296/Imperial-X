@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="skills.js"></script>
 
 </head>
 <style>
@@ -21,7 +22,7 @@
     #H_icon{
     float: left;font-size: 50px; border: aliceblue;background-color: rgb(0, 0, 0);color: white;
     margin-left: -5px;
-    margin-top: -40px;
+    margin-top: -26px;
   }
     #H_icon:hover{background-color: goldenrod;color: black;
   }
@@ -176,38 +177,51 @@
         font-family:cursive;
     }
 </style>
-<body>
+<body onload="myFunc()">
+    <script>
+    function myFunc(){
+    document.getElementById("skill-1").innerHTML=x1;
+    document.getElementById("skill-2").innerHTML=x2;
+    document.getElementById("skill-3").innerHTML=x3;
+    document.getElementById("skill-4").innerHTML=x4;
+    document.getElementById("skill-5").innerHTML=x5;
+    document.getElementById("skill-6").innerHTML=x6;
+    document.getElementById("skill-7").innerHTML=x7;
+    document.getElementById("skill-8").innerHTML=x8;
+    document.getElementById("skill-9").innerHTML=x9;
+}
+    </script>
     <div id="H_icon"><a href="FrontPage.html"><ion-icon id="H_icon" name="home"></ion-icon></a></div>
     <header>
         <h1><b>Skills</b></h1>
     </header>
     <div class="container">
         <div class="skill-1">
-            <p><b>Ux/Ui Designer</b></p>
+            <p id="skill-1"></p>
         </div>
         <div class="skill-2">
-            <p><b>Adobe After effects</b></p>
+            <p id="skill-2"></p>
         </div>
         <div class="skill-3">
-            <p><b>3D designing</b></p>
+            <p id="skill-3"></p>
         </div>
         <div class="skill-4">
-            <p><b>3D Modelling</b></p>
+            <p id="skill-4"></p>
         </div>
         <div class="skill-5">
-            <p><b>Adobe Photoshop</b></p>
+            <p id="skill-5"></p>
         </div>
         <div class="skill-6">
-            <p><b>Adobe Illustrate</b></p>
+            <p id="skill-6"></p>
         </div>
         <div class="skill-7">
-            <p><b>Web Development</b></p>
+            <p id="skill-7"></p>
         </div>
         <div class="skill-8">
-            <p><b>UX Research</b></p>
+            <p id="skill-8"></p>
         </div>
         <div class="skill-9">
-            <p><b>Digital Designing</b></p>
+            <p id="skill-9"></p>
         </div>
     </div>
 </body>

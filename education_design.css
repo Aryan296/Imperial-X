@@ -34,7 +34,12 @@ h1{
 td{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
-    padding-top: 15px;
     color: chocolate;
-    
+}
+p{
+    color: chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    margin-left: 250px;
+    margin-top: -20px;
 }
