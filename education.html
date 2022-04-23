@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="education_design.css">
+    <script src="control.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body style="background-image:linear-gradient(#007991,#78ffd6) ;background-repeat: no-repeat;background-size: cover;overflow: hidden;width: 100vw;height: 100vh;">
+
+    <center><div id="cover">
+        <table>
+            <tr><td><b>High School passed from:</b> Rhode Island School of Design</td></tr>
+            <tr><td><b>Graduated from:</b> DePaul University</td></tr>
+            <tr><td><b>Post Graduation from:</b> University of Pennsylvania</td></tr>
+        </table>
+    </div></center>
+    <center><div id="appear"><h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: burlywood;">Education</h1></div></center>
+    
+    <script>
+        $(document).ready(function(){
+            $("#appear").click(function(){
+                $(this).slideUp(2000);
+            })
+            $("#cover").click(function(){
+                $("#appear").slideDown(2000);
+            })
+           
+        })
+    </script>
+    
+</body>
+</html>

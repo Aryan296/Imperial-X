@@ -39,9 +39,22 @@ body{
     width: 210px;
     height: 170px;
     position: absolute;
-    margin-top: -320px;
-    margin-left: 430px;
+    margin-top: -315px;
+    margin-left: 410px;
     transition: transform 0.7s;
+}
+#inst{
+    width: 350px;
+    height: 470px;
+    position: absolute;
+    margin-top: -415px;
+    margin-left: 480px;
+    transition: transform 0.7s;
+}
+#inst-p{
+    margin-top: -237px;
+    margin-left: 610px;
+    position: relative;
 }
 
 #experience{
@@ -123,6 +136,7 @@ position: fixed;
     padding-top: 10px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    margin-top: 50px;
 }
 #li1{
     font-size:30%;
@@ -137,4 +151,28 @@ position: fixed;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     margin-left: 450px;
+}
+
+#inover3{
+    height: 40px;
+    width: 160px;
+    background-color: #C6FFDD;
+    text-align: center;
+    padding-top: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: -200px;
+    margin-left: 230px;
+
+}
+#inover4{
+    height: 40px;
+    width: 150px;
+    background-color: #C6FFDD;
+    text-align: center;
+    padding-top: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: -265px;
+    margin-left: -60px;
 }
